@@ -231,14 +231,6 @@ if (class_exists('GFForms')) {
 
 			wp_localize_script('itsg_gf_listnumformat_js', 'itsg_gf_listnumformat_js_settings', $settings_array);
 
-?><script>
-< ? php
-  //	GFCommon::gf_global();
-  //	GFCommon::gf_vars();
-  ?
-  >
-</script><?php
-
 							} // END localize_scripts
 
 							public function localize_scripts_admin($form, $is_ajax)

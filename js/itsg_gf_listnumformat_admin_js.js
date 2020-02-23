@@ -28,7 +28,7 @@ var text_column_row_value = itsg_gf_listnumformat_admin_js_settings.text_column_
 
 		var str = GetFieldChoicesOld.apply( this, [field] );
 
-		if( field.choices == undefined )
+		if( field.choices == undefined || field.choices === null )
 			return "";
 
 		for( var index = 0; index < field.choices.length; index++ ){
