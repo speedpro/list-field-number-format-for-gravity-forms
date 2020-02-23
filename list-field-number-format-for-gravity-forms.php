@@ -2,7 +2,7 @@
 /*
 Plugin Name: List Field Number Format for Gravity Forms
 Description: Turn your list field columns into repeatable number fields
-Version: 2.0
+Version: 2.0.1
 Author: Adrian Gordon
 Author URI: http://www.itsupportguides.com
 License: GPL2
